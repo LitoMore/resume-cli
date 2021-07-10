@@ -4,7 +4,7 @@ import {render} from 'ink';
 import meow from 'meow';
 import App from './ui';
 
-const cli = meow(
+meow(
 	`
 	Usage
 	  $ resume-cli
@@ -25,4 +25,4 @@ const cli = meow(
 	}
 );
 
-render(<App name={cli.flags.name} />);
+render(<App />);
