@@ -5,7 +5,7 @@ import {Card, Records, RecordType} from './components';
 const mockData: RecordType[] = [
 	{
 		name: 'name text',
-		description: 'description text'
+		description: 'description text',
 	},
 	{
 		name: {text: 'name text', color: 'blue.bold', remark: 'name remark'},
@@ -13,10 +13,10 @@ const mockData: RecordType[] = [
 			text: 'descrption',
 			remark: {
 				text: 'description remark',
-				color: 'bgYellow.black'
-			}
-		}
-	}
+				color: 'bgYellow.black',
+			},
+		},
+	},
 ];
 
 const App: FC = () => (

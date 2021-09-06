@@ -19,10 +19,10 @@ meow(
 	{
 		flags: {
 			name: {
-				type: 'string'
-			}
-		}
-	}
+				type: 'string',
+			},
+		},
+	},
 );
 
 render(<App />);
