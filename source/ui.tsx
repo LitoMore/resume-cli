@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {Text, Box} from 'ink';
-import {Card, Records, RecordType} from './components';
+import {Card, Records, RecordType} from './components/index.js';
 
 const mockData: RecordType[] = [
 	{
